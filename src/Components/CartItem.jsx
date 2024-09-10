@@ -8,10 +8,7 @@ const CartItem = ({details}) => {
 
   const Cart = useSelector((state) => {
     // console.log(state.Cart);
-    return(
-    <div className='h-100vh'>
-      state.Cart;
-    </div>)
+    return state.Cart;
   });
 
   const dispatch = useDispatch();
